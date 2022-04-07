@@ -11,7 +11,7 @@ server <- function(input, output, session) {
 
 app <- shinyApp(ui, server)
 
-port_env <- Sys.getenv("PORT")
-port <- ifelse(port_env == "", 4000, as.numeric(port_env))
+port <- Sys.getenv("PORT", 4000)
+options(shiny.port = as.numeric(port))
 
-runApp(app, port = port)
+runApp(app)
