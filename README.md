@@ -17,3 +17,7 @@ For example:
 PORT=5000 Rscript app.R
 ```
 Warning: if you try to use the `littler` package to run this app (as in `r app.R`) it won't work.
+
+## Status
+
+Currently on section [1.5](https://mastering-shiny.org/basic-app.html#server-function)
