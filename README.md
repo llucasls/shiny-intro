@@ -20,4 +20,4 @@ Warning: if you try to use the `littler` package to run this app (as in `r app.R
 
 ## Status
 
-Currently on section [1.5](https://mastering-shiny.org/basic-app.html#server-function)
+Currently on section [1.6](https://mastering-shiny.org/basic-app.html#reactive-expr)
