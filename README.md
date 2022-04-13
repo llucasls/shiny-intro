@@ -20,4 +20,4 @@ Warning: if you try to use the `littler` package to run this app (as in `r app.R
 
 ## Status
 
-Currently on section [1.7](https://mastering-shiny.org/basic-app.html#summary)
+Currently on section [1.8](https://mastering-shiny.org/basic-app.html#exercises)
