@@ -1,6 +1,7 @@
 require("shiny")
 
 ui <- fluidPage(
+  titlePanel(title = "Shiny Intro", windowTitle = "My First Shiny App"),
   selectInput("dataset", label = "Dataset", choices = ls("package:datasets")),
   verbatimTextOutput("summary"),
   tableOutput("table")
