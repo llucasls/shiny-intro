@@ -20,4 +20,7 @@ server <- function(input, output, session) {
   }, res = 96)
 }
 
-shinyApp(ui, server)
+app <- shinyApp(ui, server)
+
+port <- Sys.getenv("PORT", 4000)
+runApp(app, port = as.numeric(port))
