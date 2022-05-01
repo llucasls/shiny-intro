@@ -16,8 +16,8 @@ server <- function(input, output, session) {
     summary(dataset())
   })
   output$plot <- renderPlot({
-  }, res = 96)
     plot(dataset())
+  }, res = 96, width = 10, height = 5)
 }
 
 app <- shinyApp(ui, server)
