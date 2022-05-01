@@ -12,7 +12,7 @@ server <- function(input, output, session) {
   dataset <- reactive({
     get(input$dataset, "package:ggplot2")
   })
-  output$summmry <- renderPrint({
+  output$summary <- renderPrint({
     summary(dataset())
   })
   output$plot <- renderPlot({
