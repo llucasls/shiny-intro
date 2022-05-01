@@ -3,7 +3,7 @@ require("ggplot2")
 
 datasets <- c("economics", "faithfuld", "seals")
 ui <- fluidPage(
-  selectInput("dataset", "Dataset", choices = datasets),
+  selectInput("dataset", "Dataset", choices = datasets, width = "12em"),
   verbatimTextOutput("summary"),
   tableOutput("plot")
 )
