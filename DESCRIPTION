@@ -2,6 +2,7 @@ Package: app
 Imports:
     gapminder,
     ggforce,
+    ggplot2,
     gh,
     globals,
     openintro,
