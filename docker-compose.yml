@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  mastering-shiny:
+    build: .
+    container_name: mastering-shiny
+    restart: always
+    ports:
+      - 4000:4000
+    environment:
+      - R_CRAN_URL=https://cloud.r-project.org/
