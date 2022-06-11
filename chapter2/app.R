@@ -5,3 +5,6 @@ ui <- fluidPage(
   passwordInput("password", "What's your password?"),
   textAreaInput("story", "Tell me about yourself", rows = 3)
 )
+
+server <- function(input, output, session) {
+}
