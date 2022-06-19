@@ -5,6 +5,7 @@ Imports:
     ggplot2,
     gh,
     globals,
+    lintr,
     openintro,
     profvis,
     RSQLite,
