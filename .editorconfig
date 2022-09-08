@@ -1,0 +1,9 @@
+[{*.R,.Rprofile}]
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+
+[Makefile]
+indent_style = tab
+tab_width = 4
+insert_final_newline = true
